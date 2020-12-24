@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  min-height: 100vh;
+  color: #fff;
+  background-color: #1e2f33;
+}
+
+body p {
+  padding: 1em;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+body .muted {
+  font-size: 1.7rem;
+  color: gray;
+}
+
+body img {
+  position: relative;
+  left: 50%;
+  width: 200px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-bottom: 3rem;
+}
+/*# sourceMappingURL=payment.css.map */
