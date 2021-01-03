@@ -38,10 +38,11 @@ body {
 
 .video {
   position: fixed;
-  height: 200vh;
-  top: -780px;
+  min-width: 2500px;
+  min-height: 4000px;
+  top: -1200px;
   background-position: right;
-  z-index: -100;
+  z-index: -105;
 }
 
 .shadow-video {
@@ -68,10 +69,11 @@ body {
       -ms-flex-align: center;
           align-items: center;
   top: 0;
-  height: 70vh;
+  height: 85vh;
   width: 30%;
   background-color: rgba(13, 19, 17, 0.7);
   border-bottom-left-radius: 50%;
+  border-top-left-radius: 10%;
   z-index: 100;
   -webkit-transform: translateX(350%);
           transform: translateX(350%);
@@ -204,6 +206,7 @@ body {
 
 .nav-lang {
   margin-left: 2em;
+  text-align: center;
 }
 
 .nav-lang a {
@@ -249,6 +252,7 @@ body {
 .header .title-h1 {
   font-size: 8rem;
   text-shadow: 0 0 10px black;
+  text-align: center;
 }
 
 .header .title-p {
@@ -1262,6 +1266,16 @@ svg {
     padding: 1em;
     font-size: 1.5rem;
     width: 50%;
+  }
+  .header .title-h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .header .header-button {
+    font-size: 1rem;
+  }
+  .opinions .opinions-box-text {
+    font-size: 1.2rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
