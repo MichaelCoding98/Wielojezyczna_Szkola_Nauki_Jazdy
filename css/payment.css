@@ -48,4 +48,10 @@ body img {
           transform: translateX(-50%);
   margin-bottom: 3rem;
 }
+
+@media (max-width: 400px) {
+  .section-tag {
+    font-size: 3rem;
+  }
+}
 /*# sourceMappingURL=payment.css.map */

@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Crete Round', serif;
   font-size: 1.6rem;
   min-height: 100vh;
   overflow-x: hidden;
@@ -25,7 +25,7 @@ body {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  max-width: 1700px;
+  max-width: 1200px;
   text-shadow: 0 0 10px black;
 }
 
@@ -102,10 +102,10 @@ body {
   background-color: white;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: -webkit-transform .3s;
-  transition: -webkit-transform .3s;
-  transition: transform .3s;
-  transition: transform .3s, -webkit-transform .3s;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 .nav-item:hover::before {
@@ -172,12 +172,12 @@ body {
   font-family: fontAwesome;
   font-size: 6rem;
   position: absolute;
-  top: -4px;
+  top: -3px;
   left: 0;
   height: 0;
   overflow: hidden;
-  -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .nav-links ul a:hover::before {
@@ -217,7 +217,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1.7rem;
-  padding: .5em;
+  padding: 0.5em;
   color: #cabe1a;
 }
 
@@ -278,8 +278,8 @@ body {
 
 .btn-animation {
   position: relative;
-  -webkit-transition: background-color .3s;
-  transition: background-color .3s;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
   overflow: hidden;
   z-index: 0;
 }
@@ -296,10 +296,10 @@ body {
           transform: scaleY(0);
   -webkit-transform-origin: right;
           transform-origin: right;
-  -webkit-transition: -webkit-transform .3s;
-  transition: -webkit-transform .3s;
-  transition: transform .3s;
-  transition: transform .3s, -webkit-transform .3s;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
   z-index: -1;
 }
 
@@ -337,6 +337,7 @@ body {
   border-radius: 15px;
   -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
           box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
   -webkit-filter: contrast(130%);
           filter: contrast(130%);
 }
@@ -368,21 +369,6 @@ body {
           filter: contrast(150%);
 }
 
-.aboutme button {
-  position: relative;
-  display: block;
-  left: 80%;
-  top: 10px;
-  padding: 10px;
-  background: none;
-  border: none;
-  text-shadow: 2px 2px 5px black;
-  color: rgba(255, 231, 93, 0.692);
-  font-size: 36px;
-  cursor: crosshair;
-  z-index: 10;
-}
-
 .aboutme button:hover ~ .text-main-photo {
   -webkit-clip-path: circle(120% at 50% 90%);
           clip-path: circle(120% at 50% 90%);
@@ -409,8 +395,8 @@ body {
   color: #fff;
   -webkit-clip-path: circle(0 at 50% 90%);
           clip-path: circle(0 at 50% 90%);
-  -webkit-transition: .8s;
-  transition: .8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 
 .aboutme .text-main-photo p {
@@ -448,25 +434,36 @@ body {
 }
 
 .shake {
-  -webkit-animation: shakeit .5s infinite alternate both;
-          animation: shakeit .5s infinite alternate both;
+  -webkit-animation: shakeit 0.5s infinite alternate both;
+          animation: shakeit 0.5s infinite alternate both;
+  position: relative;
+  display: block;
+  top: 10px;
+  padding: 10px;
+  background: none;
+  border: none;
+  text-shadow: 2px 2px 5px black;
+  color: rgba(255, 231, 93, 0.692);
+  font-size: 30px;
+  cursor: crosshair;
+  z-index: 10;
 }
 
 @-webkit-keyframes shakeit {
   from {
-    left: 88%;
+    left: 80%;
   }
   to {
-    left: 90%;
+    left: 82%;
   }
 }
 
 @keyframes shakeit {
   from {
-    left: 88%;
+    left: 80%;
   }
   to {
-    left: 90%;
+    left: 82%;
   }
 }
 
@@ -496,20 +493,21 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-top: 10rem;
-  padding-bottom: 23rem;
+  margin-top: 5rem;
+  padding-bottom: 15rem;
 }
 
 .price {
   position: relative;
-  left: -2px;
-  margin: 20px 80px;
-  width: 450px;
+  margin: 20px 30px;
+  max-width: 400px;
+  min-width: 200px;
+  width: 400px;
   height: 600px;
 }
 
 .price h3 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .img-prices {
@@ -519,8 +517,8 @@ body {
   background-position: center;
   background-size: cover;
   border-radius: 15px;
-  -webkit-transition: .8s;
-  transition: .8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
   -webkit-filter: contrast(150%);
           filter: contrast(150%);
 }
@@ -532,7 +530,7 @@ body {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  font-size: 5rem;
+  font-size: 4rem;
   background-color: rgba(0, 0, 0, 0.6);
   padding-bottom: 1em;
 }
@@ -573,23 +571,24 @@ body {
   text-align: center;
   background-image: linear-gradient(235deg, #23363a 50%, #817c30 50%);
   opacity: 0;
-  -webkit-transition: .8s;
-  transition: .8s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 
 .text h4 {
-  font-size: 5rem;
+  font-size: 4rem;
   margin: 2rem;
 }
 
 .text ul {
   text-align: left;
   margin-left: 6rem;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 .text li {
   padding: 0.5em;
+  font-style: 1rem;
 }
 
 .btn-prices {
@@ -617,13 +616,13 @@ body {
 }
 
 .price:hover .three {
-  -webkit-animation: up .8s;
-          animation: up .8s;
+  -webkit-animation: up 0.8s;
+          animation: up 0.8s;
 }
 
 .price:hover .text-three {
-  -webkit-animation: down .8s;
-          animation: down .8s;
+  -webkit-animation: down 0.8s;
+          animation: down 0.8s;
 }
 
 @-webkit-keyframes up {
@@ -702,10 +701,10 @@ body {
   color: #fff;
   background-color: #101a1c9c;
   border-radius: 8px;
-  -webkit-transition: -webkit-transform .3s;
-  transition: -webkit-transform .3s;
-  transition: transform .3s;
-  transition: transform .3s, -webkit-transform .3s;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 .opinions .opinions-box .opinions-box:hover {
@@ -731,12 +730,12 @@ body {
 
 .opinions .opinions-box-quote {
   font-size: 3rem;
-  color: #FFF;
+  color: #fff;
 }
 
 .opinions .opinions-box-text {
   font-size: 1.7rem;
-  color: #FFF;
+  color: #fff;
 }
 
 .opinions .opinion-icon {
@@ -772,7 +771,7 @@ body {
 }
 
 .flag img {
-  opacity: .3;
+  opacity: 0.3;
   height: 220px;
   width: 220px;
   -o-object-fit: cover;
@@ -1050,7 +1049,7 @@ svg {
 }
 
 .footer {
-  color: #FFF;
+  color: #fff;
   background-color: #101a1c;
 }
 
@@ -1096,7 +1095,7 @@ svg {
   }
 }
 
-@media (max-width: 1680px) {
+@media (max-width: 5580px) {
   .nav {
     width: 50%;
     background-color: rgba(13, 19, 17, 0.8);
@@ -1111,7 +1110,7 @@ svg {
   .nav {
     right: 0;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background-color: rgba(13, 19, 17, 0.9);
     border-radius: 0;
   }
