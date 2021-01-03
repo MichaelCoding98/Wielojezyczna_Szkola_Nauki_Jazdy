@@ -49,7 +49,7 @@ body {
   position: fixed;
   height: 100vh;
   width: 100%;
-  background-color: rgba(2, 2, 2, 0.538);
+  background-color: rgba(2, 2, 2, 0.322);
   z-index: -90;
 }
 
@@ -497,8 +497,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-top: 5rem;
-  padding-bottom: 15rem;
+  padding-bottom: 10rem;
 }
 
 .price {
@@ -1018,8 +1017,8 @@ svg {
 .contact .contact-form-textarea {
   max-width: 100%;
   width: 100%;
-  min-height: 250px;
-  min-width: 250px;
+  min-height: 150px;
+  min-width: 150px;
 }
 
 .contact .contact-form-btn {
@@ -1204,6 +1203,8 @@ svg {
 @media (max-width: 450px) {
   .section-tag {
     font-size: 2.5rem;
+    padding: 1em;
+    margin-top: 2em;
   }
   .nav-lang a {
     font-size: 1.1rem;
@@ -1258,9 +1259,11 @@ svg {
   .btn-prices {
     padding: 0.5em 1em;
   }
+  .price {
+    margin-top: 150px;
+  }
   .prices {
-    margin-top: 0rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
   }
   .contact .contact-form-btn {
     padding: 1em;
@@ -1276,6 +1279,9 @@ svg {
   }
   .opinions .opinions-box-text {
     font-size: 1.2rem;
+  }
+  .contact .contact-form-label {
+    font-size: 1.4rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
