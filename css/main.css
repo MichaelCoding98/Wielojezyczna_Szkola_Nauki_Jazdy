@@ -38,8 +38,8 @@ body {
 
 .video {
   position: fixed;
-  height: 150vh;
-  top: -280px;
+  height: 200vh;
+  top: -780px;
   background-position: right;
   z-index: -100;
 }
@@ -359,9 +359,9 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 100px;
-  min-width: 480px;
+  min-width: 330px;
   width: 50%;
-  height: 420px;
+  height: 290px;
   background-position: center;
   background-size: cover;
   margin-left: 3rem;
@@ -1194,6 +1194,74 @@ svg {
 @media (max-width: 900px) {
   .price {
     width: 70%;
+  }
+}
+
+@media (max-width: 450px) {
+  .section-tag {
+    font-size: 2.5rem;
+  }
+  .nav-lang a {
+    font-size: 1.1rem;
+  }
+  .nav-item {
+    font-size: 2rem;
+  }
+  .nav-links ul li a .fab {
+    font-size: 4rem;
+  }
+  .nav-links ul a::before {
+    font-size: 4rem;
+    top: -2px;
+  }
+  .aboutme .card {
+    min-width: 280px;
+    height: 400px;
+  }
+  .aboutme .text-main-photo p {
+    font-size: 1.1rem;
+  }
+  .aboutme .text-main-photo h1 {
+    font-size: 1.6rem;
+  }
+  .aboutme .text-main-photo h2 {
+    font-size: 1.3rem;
+  }
+  .aboutme .text-main-photo {
+    padding: 30px 30px;
+  }
+  .aboutme .huydai-photo {
+    height: 200px;
+  }
+  .price {
+    height: 400px;
+  }
+  .price .text {
+    padding: 10px;
+  }
+  .price .text ul {
+    font-size: 1.5rem;
+  }
+  .price .text h3,
+  .price h4 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .price li {
+    position: relative;
+    left: -30px;
+  }
+  .btn-prices {
+    padding: 0.5em 1em;
+  }
+  .prices {
+    margin-top: 0rem;
+    padding-bottom: 5rem;
+  }
+  .contact .contact-form-btn {
+    padding: 1em;
+    font-size: 1.5rem;
+    width: 50%;
   }
 }
 /*# sourceMappingURL=main.css.map */
