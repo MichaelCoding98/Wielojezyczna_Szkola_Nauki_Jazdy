@@ -405,6 +405,9 @@ body {
 	cursor: crosshair;
 	z-index: 10;
 }
+.shake:focus {
+	outline: none;
+}
 
 @keyframes shakeit {
 	from {
@@ -427,6 +430,9 @@ body {
 		overflow: hidden;
 		z-index: 20;
 	}
+	.gallery-hyundai:focus {
+		outline: none;
+	}
 
 	.img-hyundai {
 		padding: 2em;
@@ -435,9 +441,6 @@ body {
 		z-index: -1;
 		object-fit: cover;
 		filter: contrast(150%);
-	}
-	.img-hyundai:focus {
-		outline: none;
 	}
 }
 
@@ -627,7 +630,7 @@ body {
 		.opinions-box:hover {
 			transform: scale(0.95);
 		}
-		.opinions-box:focus{
+		.opinions-box:focus {
 			outline: none;
 		}
 	}
@@ -661,6 +664,9 @@ body {
 		margin-bottom: 8rem;
 		height: 80px;
 		width: 80px;
+	}
+	.opinions-boxes:focus {
+		outline: none;
 	}
 }
 

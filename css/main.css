@@ -457,6 +457,10 @@ body {
   z-index: 10;
 }
 
+.shake:focus {
+  outline: none;
+}
+
 @-webkit-keyframes shakeit {
   from {
     left: 80%;
@@ -482,6 +486,10 @@ body {
   z-index: 20;
 }
 
+.gallery-hyundai-cards .gallery-hyundai:focus {
+  outline: none;
+}
+
 .gallery-hyundai-cards .img-hyundai {
   padding: 2em;
   height: 500px;
@@ -491,10 +499,6 @@ body {
      object-fit: cover;
   -webkit-filter: contrast(150%);
           filter: contrast(150%);
-}
-
-.gallery-hyundai-cards .img-hyundai:focus {
-  outline: none;
 }
 
 .prices {
@@ -762,6 +766,10 @@ body {
   margin-bottom: 8rem;
   height: 80px;
   width: 80px;
+}
+
+.opinions .opinions-boxes:focus {
+  outline: none;
 }
 
 .flags {
