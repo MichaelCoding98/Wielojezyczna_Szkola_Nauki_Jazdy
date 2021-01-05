@@ -11,8 +11,11 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  outline: none;
   overflow-x: hidden;
+}
+
+html:focus {
+  outline: none;
 }
 
 body {
