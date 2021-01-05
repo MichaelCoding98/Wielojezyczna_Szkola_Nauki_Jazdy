@@ -15,7 +15,7 @@ html {
 }
 
 html:focus {
-  outline: none;
+  outline: none !important;
 }
 
 body {
@@ -493,6 +493,10 @@ body {
           filter: contrast(150%);
 }
 
+.gallery-hyundai-cards .img-hyundai:focus {
+  outline: none;
+}
+
 .prices {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -616,6 +620,10 @@ body {
   background-color: #27393d;
 }
 
+.btn-prices:focus {
+  outline: none;
+}
+
 .price:hover .text {
   -webkit-transform: rotate(0);
           transform: rotate(0);
@@ -717,6 +725,10 @@ body {
 .opinions .opinions-box .opinions-box:hover {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
+}
+
+.opinions .opinions-box .opinions-box:focus {
+  outline: none;
 }
 
 .opinions .opinions-box-img {

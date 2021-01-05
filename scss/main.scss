@@ -14,7 +14,7 @@ html {
 	overflow-x: hidden;
 }
 html:focus {
-	outline: none;
+	outline: none !important;
 }
 
 body {
@@ -436,6 +436,9 @@ body {
 		object-fit: cover;
 		filter: contrast(150%);
 	}
+	.img-hyundai:focus {
+		outline: none;
+	}
 }
 
 // PRICESS
@@ -554,6 +557,9 @@ body {
 .btn-prices::before {
 	background-color: #27393d;
 }
+.btn-prices:focus {
+	outline: none;
+}
 
 .price:hover .text {
 	transform: rotate(0);
@@ -620,6 +626,9 @@ body {
 
 		.opinions-box:hover {
 			transform: scale(0.95);
+		}
+		.opinions-box:focus{
+			outline: none;
 		}
 	}
 

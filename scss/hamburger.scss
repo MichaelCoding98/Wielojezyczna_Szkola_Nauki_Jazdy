@@ -26,6 +26,9 @@
 	overflow: visible;
 	z-index: 1000;
 }
+.hamburger:focus{
+	outline: none;
+}
 
 @media (max-width: 1480px) {
 	.hamburger {
