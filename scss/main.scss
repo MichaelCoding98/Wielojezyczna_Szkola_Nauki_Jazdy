@@ -442,6 +442,9 @@ body {
 		object-fit: cover;
 		filter: contrast(150%);
 	}
+	.img-hyundai:focus {
+		outline: none;
+	}
 }
 
 // PRICESS
@@ -630,9 +633,6 @@ body {
 		.opinions-box:hover {
 			transform: scale(0.95);
 		}
-		.opinions-box:focus {
-			outline: none;
-		}
 	}
 
 	.opinions-box-img {
@@ -647,6 +647,9 @@ body {
 			object-fit: cover;
 			border-radius: 35%;
 		}
+	}
+	.opinions-box-img:focus {
+		outline: none;
 	}
 
 	.opinions-box-quote {
@@ -664,9 +667,6 @@ body {
 		margin-bottom: 8rem;
 		height: 80px;
 		width: 80px;
-	}
-	.opinions-boxes:focus {
-		outline: none;
 	}
 }
 
