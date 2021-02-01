@@ -772,6 +772,10 @@ body {
   width: 80px;
 }
 
+.opinions .opinion-icon:focus {
+  outline: none;
+}
+
 .flags {
   display: -webkit-box;
   display: -ms-flexbox;
