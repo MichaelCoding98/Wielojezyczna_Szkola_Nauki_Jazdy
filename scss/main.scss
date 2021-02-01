@@ -856,6 +856,31 @@ svg {
 	width: 0;
 	height: 0;
 }
+// ======================strona z testami ==========
+.img_theory_page {
+	display: flex;
+	justify-content: center;
+	a:focus {
+		outline: none;
+	}
+	.img_page {
+		width: 90%;
+		height: 90%;
+		max-width: 800px;
+		max-height: 600px;
+		margin: 2em;
+		margin-left: 1.7em;
+		opacity: 0.4;
+		align-self: center;
+		border-radius: 10px;
+		transition: opacity 1s, box-shadow 1s, transform 0.5s;
+	}
+	.img_page:hover {
+		transform: scale(1.1);
+		box-shadow: 2px 2px 4px 4px rgb(107, 95, 19);
+		opacity: 1;
+	}
+}
 
 // CONTACT
 // CONTACT
@@ -1177,9 +1202,9 @@ svg {
 		}
 	}
 }
-@media (max-width: 350px) {
+@media (max-width: 470px) {
 	.video {
-		width: 2000px;
-		top: -550px;
+		width: 2150px;
+		top: -520px;
 	}
 }
