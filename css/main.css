@@ -43,9 +43,9 @@ body {
 
 .video {
   position: fixed;
-  min-width: 1500px;
-  min-height: 1900px;
-  top: -250px;
+  min-width: 1000px;
+  min-height: 1400px;
+  top: -235px;
   z-index: -105;
 }
 
@@ -191,9 +191,9 @@ body {
 }
 
 .three::before {
-  content: '\f099';
-  color: #1da1f2;
-  border-bottom: 4px solid #1da1f2;
+  content: '\f518';
+  color: #cabe1a;
+  border-bottom: 4px solid #cabe1a;
 }
 
 .one::before {
@@ -203,9 +203,9 @@ body {
 }
 
 .two::before {
-  content: '\f167';
-  color: #903714;
-  border-bottom: 4px solid #903714;
+  content: '\f082';
+  color: #097eeb;
+  border-bottom: 4px solid #097eeb;
 }
 
 .nav-lang {
@@ -607,7 +607,7 @@ body {
 
 .text li {
   padding: 0.5em;
-  font-style: 1rem;
+  font-size: 2rem;
 }
 
 .btn-prices {
@@ -1358,8 +1358,7 @@ svg {
 
 @media (max-width: 470px) {
   .video {
-    width: 2150px;
-    top: -520px;
+    width: 2200px;
   }
 }
 /*# sourceMappingURL=main.css.map */
