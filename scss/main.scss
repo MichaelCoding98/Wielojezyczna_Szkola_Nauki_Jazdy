@@ -54,6 +54,35 @@ body {
 	background-color: rgba(2, 2, 2, 0.198);
 	z-index: -90;
 }
+.arrow_header {
+	position: relative;
+	color: #fff;
+	font-size: 3rem;
+	left: 50%;
+	top: -100px;
+	cursor: pointer;
+	z-index: 100;
+
+	animation: fallDwonArrow 2.5s ease-in 2s infinite normal backwards;
+}
+@keyframes fallDwonArrow {
+	0% {
+		top: -200px;
+		opacity: 100%;
+	}
+	60% {
+		top: -100px;
+		opacity: 70%;
+	}
+	70% {
+		top: -120px;
+		opacity: 40%;
+	}
+	100% {
+		top: -100px;
+		opacity: 10%;
+	}
+}
 
 // NAVIGACJA
 // NAVIGACJA
@@ -1208,6 +1237,5 @@ svg {
 @media (max-width: 470px) {
 	.video {
 		width: 2200px;
-	
 	}
 }
