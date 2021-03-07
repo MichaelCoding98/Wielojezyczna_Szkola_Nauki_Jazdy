@@ -5,7 +5,10 @@ $main-color: #101a1c;
 *::before {
 	box-sizing: border-box;
 	margin: 0;
-	padding: 0;
+	padding: 0; 
+}
+*:focus{
+		outline: none;
 }
 
 html {

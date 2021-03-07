@@ -8,6 +8,10 @@
   padding: 0;
 }
 
+*:focus {
+  outline: none;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
