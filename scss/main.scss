@@ -44,9 +44,9 @@ body {
 
 .video {
 	position: fixed;
-	min-width: 1000px;
-	min-height: 1400px;
-	top: -235px;
+	min-width: 100%;
+	min-height: 175%;
+	top: -390px;
 	z-index: -105;
 }
 
@@ -1237,8 +1237,9 @@ svg {
 		}
 	}
 }
-@media (max-width: 470px) {
-	.video {
-		width: 2200px;
-	}
-}
+// @media (max-width: 470px) {
+// 	.video {
+// 		// width: 2200px;
+// 		top: -390px;
+// 	}
+// }
