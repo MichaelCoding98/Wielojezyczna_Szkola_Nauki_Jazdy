@@ -104,7 +104,7 @@
   width: 40px;
   height: 4px;
   background-color: #ccab19;
-  border-radius: 4px;
+  border-radius: 50% !important;
   position: absolute;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;

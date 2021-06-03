@@ -1,0 +1,80 @@
+*::-moz-selection {
+  color: #353535;
+  background-color: #dddddd;
+}
+
+*::selection {
+  color: #353535;
+  background-color: #dddddd;
+}
+
+h1 {
+  color: #c7ad19;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+p,
+h1 {
+  text-align: center;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 50%;
+}
+
+p {
+  color: #eee;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(216deg, rgba(77, 77, 77, 0.05) 0%, rgba(77, 77, 77, 0.05) 25%, rgba(42, 42, 42, 0.05) 25%, rgba(42, 42, 42, 0.05) 38%, rgba(223, 223, 223, 0.05) 38%, rgba(223, 223, 223, 0.05) 75%, rgba(36, 36, 36, 0.05) 75%, rgba(36, 36, 36, 0.05) 100%), linear-gradient(44deg, rgba(128, 128, 128, 0.05) 0%, rgba(128, 128, 128, 0.05) 34%, rgba(212, 212, 212, 0.05) 34%, rgba(212, 212, 212, 0.05) 57%, rgba(25, 25, 25, 0.05) 57%, rgba(25, 25, 25, 0.05) 89%, rgba(135, 135, 135, 0.05) 89%, rgba(135, 135, 135, 0.05) 100%), linear-gradient(241deg, rgba(55, 55, 55, 0.05) 0%, rgba(55, 55, 55, 0.05) 14%, rgba(209, 209, 209, 0.05) 14%, rgba(209, 209, 209, 0.05) 60%, rgba(245, 245, 245, 0.05) 60%, rgba(245, 245, 245, 0.05) 69%, rgba(164, 164, 164, 0.05) 69%, rgba(164, 164, 164, 0.05) 100%), linear-gradient(249deg, rgba(248, 248, 248, 0.05) 0%, rgba(248, 248, 248, 0.05) 32%, rgba(148, 148, 148, 0.05) 32%, rgba(148, 148, 148, 0.05) 35%, rgba(202, 202, 202, 0.05) 35%, rgba(202, 202, 202, 0.05) 51%, rgba(181, 181, 181, 0.05) 51%, rgba(181, 181, 181, 0.05) 100%), linear-gradient(92deg, #101a1c, #101a1c);
+}
+
+.regulations-box {
+  position: relative;
+  margin-top: 5em;
+}
+
+a {
+  text-decoration: none;
+  color: #c7ad19;
+  font-weight: bold;
+  position: absolute;
+  text-align: right;
+  width: 100%;
+  right: 25%;
+}
+
+a:hover {
+  color: #72651b;
+}
+
+@media (max-width: 1000px) {
+  p {
+    width: 75%;
+    font-size: 1rem;
+  }
+  a {
+    font-size: .8rem;
+  }
+  h1 {
+    width: 75%;
+    font-size: 1.5rem;
+  }
+}
+/*# sourceMappingURL=regulations.css.map */
